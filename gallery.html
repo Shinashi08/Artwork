@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.8/umd/popper.min.js"></script>
+</head>
+
+<body onload="initials();">
+
+
+    <style>
+       
+        .navbar {
+            height: 100px;
+            background-color: rgb(46, 46, 46);
+        }
+        
+        #offcanvasNavbar {
+            width: 280px;
+        }
+        
+        .inline {
+            display: inline-block
+        }
+        
+        .center-text {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-weight: bold;
+            color: aliceblue;
+            text-align: center;
+        }
+        
+        .margin-top-20 {
+            margin-top: 20px;
+        }
+        .img {
+            object-fit: scale-down;
+        }
+    </style>
+
+
+    <nav class="navbar sticky-top shadow">
+        <div class="container-fluid">
+            <button class="navbar-toggler ml-5 border-0 shadow bg-dark" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation" style="margin-left:15px;">
+<div class=" text-light p-2 ">
+    <i class="fa-solid fa-bars fa-flip-horizontal"></i>
+</div>
+</button>
+            <div>
+                <div class="col-md-12 center-text">
+                    <h2 class="center-text"><i class="fa-solid fa-palette"></i>  ARTWORKS
+                    </h2>
+                </div>
+            </div>
+
+            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header bg-body-tertiary">
+                    <h3 id="lblName" class="offcanvas-title fw-bold" id="offcanvasNavbarLabel"><i class="fa-solid fa-palette"></i> Artworks </h3>
+                </div>
+                <div class="offcanvas-body">
+
+
+
+                    <!-- navigation side bar buttons -->
+                    <ul class=" navbar-nav justify-content-end flex-grow-1 pe-3" role="tablist">
+
+
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link active" aria-current="page" style="margin-left:70px; margin-top: 10px; margin-bottom: 10px;" href="index.html" type="button" role="tab" aria-controls="pills-home" aria-selected="true">
+                                <i class="fa-solid fa-house fa-xl"></i>
+                                <span style="margin-left:10px;">Home</span>
+                            </a>
+                        </li>
+
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link active" aria-current="page" style="margin-left:70px; margin-top: 10px; margin-bottom: 10px;" href="about.html" type="button" role="tab" aria-controls="pills-home" aria-selected="true">
+                                <i class="fa-solid fa-circle-info fa-xl"></i>
+                                <span style="margin-left:10px;">About</span>
+                            </a>
+                        </li>
+
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link active" aria-current="page" style="margin-left:70px; margin-top: 10px; margin-bottom: 10px;" href="gallery.html" type="button" role="tab" aria-controls="pills-home" aria-selected="true">
+                                <i class="fa-solid fa-image fa-xl"></i>
+                                <span style="margin-left:10px;">Gallery</span>
+                            </a>
+                        </li>
+
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link active" aria-current="page" style="margin-left:70px; margin-top: 10px; margin-bottom: 10px;" href="contact.html" type="button" role="tab" aria-controls="pills-home" aria-selected="true">
+                                <i class="fa-solid fa-phone fa-xl"></i>
+                                <span style="margin-left:10px;">Contact</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <img src="images/heh.png" alt="artwork"  width="100%">
+
+</body>
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
+
+
+</html>

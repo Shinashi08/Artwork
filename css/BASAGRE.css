@@ -1,0 +1,60 @@
+.logo {
+    margin-top: 40px;
+    margin-left: 670px;
+    display: block;
+    height: 25%;
+    width: 25%;
+  }
+h1{
+  margin-left: 700px;
+  margin-right: 100px;
+  display: block;
+  color: rgb(0, 0, 0);
+}
+h2{
+  margin-left: 725px;
+  margin-right: 100px;
+  display: block;
+  color: rgb(0, 0, 0);
+}
+
+  .cd{
+    float: inline-end;
+    height: 175px;
+    width: 175px;
+  }
+b{
+  color: rgb(0, 0, 0);
+}
+  p {
+   background-color: rgb(255, 234, 206, 0.5);
+  }
+
+  #first{
+    margin-left: 620px;
+    margin-right: 100px;
+    display: block;
+  }
+
+  .yuu{
+    float: inline-end;
+    height: 150px;
+    width: 150px;
+  }
+
+  .yagakimi{
+    margin-top: 100px;
+    margin-left: 250px;
+    display: block;
+    height: 300px;
+    width: 750px;
+  }
+
+  .nanami{
+  float: inline-end;
+    height: 150px;
+    width: 150px;
+   }
+   a{
+    background-color: rgb(255, 234, 206, 0.5);
+   }
